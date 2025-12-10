@@ -1,131 +1,116 @@
-Augmented Reality (AR) App for Training and Education
-Project Details
+# Augmented Reality (AR) App for Training and Education
 
-Project-Based Learning (PBL-2)
-Semester: 4th | Session: 2023–24
-Duration: 03 Jan 2024 – 18 Apr 2024
-Developed By: Basharat Hassan (2022521926)
+### Project Details  
+Project-Based Learning (PBL-2)  
+Semester: 4th | Session: 2023–24  
+Duration: 03 Jan 2024 – 18 Apr 2024  
+Developed By: Basharat Hassan (2022521926)  
 Institution: Sharda University, Greater Noida
 
-Overview
+---
 
-This project is an interactive, marker-based Augmented Reality (AR) application built to enhance training and education through immersive 3D visualizations.
-Using Unity, ARCore, Vuforia, and custom-designed 3D models created in Blender, the application projects detailed 3D objects such as the sun, boat, sea, car, house, and airplane when the camera detects predefined image markers.
+## Overview
+This project is an interactive, marker-based Augmented Reality (AR) application built to enhance training and education through immersive 3D visualizations. Using Unity, ARCore, Vuforia, and custom-designed 3D models from Blender, the application projects realistic 3D objects such as the sun, boat, sea, car, house, and airplane when the device camera detects predefined image markers.
 
-The application also features animations, voice-over explanations, and background audio, creating an engaging and realistic learning environment for users.
-It is packaged as a fully functional Android APK that runs smoothly on AR-supported devices.
+The application includes animations, voice-over explanations, and background audio to create an engaging learning experience. It is packaged as a fully functional Android APK that runs smoothly on AR-supported devices.
 
-Objectives
+---
 
-Enhance learning through interactive AR-based visualizations.
+## Objectives
+- Enhance learning through AR-based visualizations.
+- Provide an intuitive user interface for students and trainees.
+- Demonstrate real-time marker-based 3D model projection.
+- Integrate 3D models, audio, and animations for educational use.
+- Showcase Unity, ARCore, and Vuforia working together.
 
-Provide an intuitive, user-friendly interface for students and trainees.
+---
 
-Demonstrate real-time marker-based AR object projection.
+## Features
+- Marker-based AR detection using Vuforia and ARCore.
+- Projection of multiple high-quality 3D models:
+  - Sun
+  - Boat with ocean environment
+  - Car with animations
+  - House model
+  - Airplane with flight animation
+- Integrated voice-over for explanations.
+- Background music for immersion.
+- Android APK packaged with a UI for navigation.
+- Smooth real-time performance on supported devices.
 
-Leverage 3D assets, animation, and audio for engaging educational experiences.
+---
 
-Showcase ARCore and Vuforia integration within Unity.
+## Tech Stack
+| Category | Tools / Technologies |
+|----------|----------------------|
+| Game Engine | Unity |
+| AR SDKs | ARCore, Vuforia, ARToolKit |
+| Language | C# |
+| 3D Modeling | Blender |
+| IDE | Visual Studio, VS Code |
+| Version Control | Git |
+| Platform | Android (APK) |
 
-Features
+Hardware Used:  
+AR-supported Android phone, GPU-enabled development system, standard RAM and storage required for Unity and Blender.
 
-Marker-based AR detection using Vuforia/ARCore.
+---
 
-Projection of high-quality 3D models when camera recognizes image targets.
-
-Multiple interactive models including:
-
-Sun
-
-Boat and ocean environment
-
-Car with movement animation
-
-House model
-
-Airplane with flight animation
-
-Integrated voice narration for explanation of each model.
-
-Background music for enhanced immersion.
-
-Smooth, optimized performance on Android devices.
-
-Fully packaged as an APK with a simple UI and instructions.
-
-Tech Stack
-Category	Tools / Technologies
-Game Engine	Unity
-AR SDKs	ARCore, Vuforia, ARToolKit
-Programming Language	C#
-3D Modeling	Blender
-IDE	Visual Studio / VS Code
-Version Control	Git
-Platform	Android (APK)
-
-Hardware Used:
-AR-supported Android phone, GPU-enabled development system, RAM/Storage as required for Unity and Blender.
-
-Project Structure
+## Project Structure
 ar-training-education-app/
 ├── Assets/
-│   ├── Scripts/              # C# scripts (marker detection, UI, animations)
-│   ├── Models/               # Blender 3D models
-│   ├── Audio/                # Voice-over and background music
-│   ├── Animations/           # AR animations
-│   └── Vuforia/              # Image targets and AR markers
+│ ├── Scripts/ # C# scripts for detection, UI, and animations
+│ ├── Models/ # Blender 3D models
+│ ├── Audio/ # Voice-over and background music
+│ ├── Animations/ # AR animations
+│ └── Vuforia/ # Image targets and AR configurations
 ├── Scenes/
-│   └── MainScene.unity
+│ └── MainScene.unity
 ├── ProjectSettings/
 ├── Packages/
 └── README.md
 
-How It Works
 
-The user opens the AR application on their Android device.
+---
 
-The camera scans printed image markers.
+## How It Works
+1. The user opens the AR app on an Android device.
+2. The camera scans printed image markers.
+3. When a marker matches a stored Vuforia target, the application:
+   - Loads the corresponding 3D model
+   - Plays animations
+   - Plays voice narration and background audio
+4. The 3D model appears fixed in the real world, allowing the user to walk around and explore it.
+5. Multiple models can be viewed by scanning different markers.
 
-When the marker matches the stored target in Vuforia, the app:
+---
 
-Loads the associated 3D model
+## Results
+- Fully deployed as an Android AR application (APK).
+- High-quality 3D models with smooth animations.
+- Accurate marker detection with minimal latency.
+- Effective use of AR for interactive learning scenarios.
+- Successful integration of audio, animation, and ARCore/Vuforia inside Unity.
 
-Plays predefined animations
+Screenshots and demonstration video will be added soon.
 
-Adds voice-over explanation and background music
+---
 
-The model appears fixed in the real world, allowing the user to walk around and explore it from all angles.
+## Future Improvements
+- Add gesture-based interaction with 3D models.
+- Expand the library of educational AR modules.
+- Add quizzes and learning activities inside the UI.
+- Cloud-based content updates for new AR lessons.
+- iOS support using ARKit.
+- Improved user interface and navigation design.
 
-Multiple models can be viewed by changing markers.
+---
 
-Results
+## License
+This project is intended for educational and research purposes.
 
-Successfully deployed as a complete AR Android application (APK).
+---
 
-High-quality 3D models with smooth animations.
-
-Accurate marker detection with minimal latency.
-
-Effective use of AR for visual learning and training.
-
-Demonstrated the ability to integrate audio, animation, and ARCore/Vuforia workflows within Unity.
-
-(Screenshots and demo video will be added soon.)
-
-Future Improvements
-
-Add gesture-based interaction with 3D models.
-
-Expand the number of educational modules and models.
-
-Introduce quizzes and learning assessments inside the app.
-
-Cloud-based content updates for new AR lessons.
-
-Port to iOS using ARKit.
-
-Improve UI with multiple learning pathways.
-
-License
-
-This project is intended for educational and research use.
+## Status
+Initial version created and ready for upload.  
+Additional documentation, screenshots, markers, and APK download link will be added later.
