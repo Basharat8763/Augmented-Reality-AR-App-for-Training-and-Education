@@ -49,18 +49,8 @@ AR-supported Android phone, GPU-enabled development system, standard RAM and sto
 ---
 
 ## Project Structure
-ar-training-education-app/
-├── Assets/
-│ ├── Scripts/ # C# scripts for detection, UI, and animations
-│ ├── Models/ # Blender 3D models
-│ ├── Audio/ # Voice-over and background music
-│ ├── Animations/ # AR animations
-│ └── Vuforia/ # Image targets and AR configurations
-├── Scenes/
-│ └── MainScene.unity
-├── ProjectSettings/
-├── Packages/
-└── README.md
+<img width="624" height="351" alt="image" src="https://github.com/user-attachments/assets/495271c0-3c66-4561-977c-0d8d5177743d" />
+
 
 
 ---
