@@ -1,14 +1,5 @@
 # Augmented Reality (AR) App for Training and Education
 
-### Project Details  
-Project-Based Learning (PBL-2)  
-Semester: 4th | Session: 2023–24  
-Duration: 03 Jan 2024 – 18 Apr 2024  
-Developed By: Basharat Hassan (2022521926)  
-Institution: Sharda University, Greater Noida
-
----
-
 ## Overview
 This project is an interactive, marker-based Augmented Reality (AR) application built to enhance training and education through immersive 3D visualizations. Using Unity, ARCore, Vuforia, and custom-designed 3D models from Blender, the application projects realistic 3D objects such as the sun, boat, sea, car, house, and airplane when the device camera detects predefined image markers.
 
