@@ -32,6 +32,7 @@ The application includes animations, voice-over explanations, and background aud
 ---
 
 ## Tech Stack
+
 | Category | Tools / Technologies |
 |----------|----------------------|
 | Game Engine | Unity |
