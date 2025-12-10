@@ -48,13 +48,6 @@ AR-supported Android phone, GPU-enabled development system, standard RAM and sto
 
 ---
 
-## Project Structure
-<img width="624" height="351" alt="image" src="https://github.com/user-attachments/assets/495271c0-3c66-4561-977c-0d8d5177743d" />
-
-
-
----
-
 ## How It Works
 1. The user opens the AR app on an Android device.
 2. The camera scans printed image markers.
@@ -91,8 +84,3 @@ Screenshots and demonstration video will be added soon.
 ## License
 This project is intended for educational and research purposes.
 
----
-
-## Status
-Initial version created and ready for upload.  
-Additional documentation, screenshots, markers, and APK download link will be added later.
